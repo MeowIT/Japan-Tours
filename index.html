@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">
+        &nbsp;
+      </span>
+    </label>
+    <div class="navigation__background">
+      &nbsp;
+    </div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link"> <span>01</span> About Japan</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Price Plans</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Testimonials</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Book NOW</a></li>
+       
+      </ul>
+    </nav>
+  </div>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -111,7 +131,7 @@
         </div>
         </div>
       </section>
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             Chose what fits you
@@ -146,7 +166,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">299$</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now</a>
+                  <a href="#popup" class="btn btn--white">Book Now</a>
                 </div>
               </div>
             </div>
@@ -179,7 +199,7 @@
                   <p class="card__price-only">Only</p>
                   <p class="card__price-value">$699</p>
                 </div>
-                <a href="#" class="btn btn--white">Book Now</a>
+                <a href="#popup" class="btn btn--white">Book Now</a>
               </div>
             </div>
           </div>
@@ -212,7 +232,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">499$</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now</a>
+                  <a href="#popup" class="btn btn--white">Book Now</a>
                 </div>
               </div>
             </div>
@@ -268,7 +288,7 @@
                 I left my heart in japan
               </h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe odit nostrum obcaecati quis fuga. Inventore reprehenderit praesentium veritatis aliquid dicta, eligendi aperiam odio consequatur illum veniam beatae atque nihil consequuntur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum voluptatibus iusto amet nam, facere reiciendis non adipisci minus? Numquam molestias totam ratione voluptatum inventore libero fugiat provident minima molestiae
               </p>
 
             </div>
@@ -350,6 +370,26 @@
         </div>
       </div>
     </footer>
+
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        
+        <div class="popup__left">
+          <img src="Img/japan-night.jpg" alt="japan-night" class="popup__img">
+          <img src="Img/japan-people.jpg" alt="japan-people" class="popup__img">
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Start Booking Now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read before booking</h3>
+          <p class="popup__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, accusantium odit quae libero molestiae qui hic quo cupiditate officiis maiores ullam sunt quis, sint, alias minus! Sapiente quam ipsam ad voluptatum cum aliquid, similique consequatur aliquam odit repellendus illo, mollitia eos expedita, sed voluptatem quod quae dolores animi temporibus. Distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus vitae nobis officia id pariatur officiis quis ad, tempore amet exercitationem dolore iure magnam? Harum omnis veritatis maxime soluta officia possimus eius voluptatibus sapiente sint, labore, quia distinctio vitae facere. Quo exercitationem, incidunt vero doloremque illum similique esse dignissimos nemo magnam!</p>
+          <a href="#" class="btn btn--pink">Book Now</a>
+        </div>
+      </div>
+    </div>
 
     <!--  <section class="grid-test">
       <div class="row">
